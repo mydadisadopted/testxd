@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('background-image.jpg') no-repeat center center/cover;
+    background: url('https://picsum.photos/1200/600') no-repeat center center/cover;
     text-align: center;
     padding: 100px 20px;
 }
@@ -32,13 +32,13 @@ header {
     margin-top: 20px;
 }
 
-.narrative {
+.narrative, .tokenomics {
     background-color: #111111;
     padding: 50px 20px;
     text-align: center;
 }
 
-.narrative p {
+.narrative p, .tokenomics p {
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -49,20 +49,17 @@ header {
     color: #00aaff;
 }
 
-.tokenomics {
-    background-color: #1a1a1a;
-    padding: 50px 20px;
-    text-align: center;
-}
-
 .tokenomics h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.tokenomics p {
-    font-size: 20px;
-    margin: 10px 0;
+.placeholder-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
 }
 
 footer {
