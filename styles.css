@@ -1,78 +1,77 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    color: #ffffff;
+    background-color: #0a0a0a;
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 1em 0;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header-content p, .header-content .buy-now, .header-content .memes, .header-content .merch, .header-content .contract {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.narrative {
+    background-color: #111111;
+    padding: 50px 20px;
     text-align: center;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+.narrative p {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 1em;
+.quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
+.tokenomics {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
 }
 
-main {
-    padding: 2em;
+.tokenomics h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-section {
-    margin-bottom: 2em;
-}
-
-h2 {
-    color: #4CAF50;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 1em;
-}
-
-form input, form textarea {
-    padding: 0.5em;
-    margin-top: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    margin-top: 1em;
-    padding: 0.5em;
-    border: none;
-    border-radius: 4px;
-    background: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #45a049;
+.tokenomics p {
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 footer {
-    background: #4CAF50;
-    color: white;
+    background-color: #0a0a0a;
     text-align: center;
-    padding: 1em 0;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
 }
